@@ -65,7 +65,6 @@ public class Rings {
             for (int j = 1, i = 1, n = 1; n < Math.max(rows / 2, cols / 2); n++) {
                 //limit is how many circles
                 for (; j < cols - n; j++) {
-                    //if else is good, loop has to change
                     if (ctable[i][j] == '.') {
                         table[i][j] = 0;
                     } else {
