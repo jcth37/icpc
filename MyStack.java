@@ -1,4 +1,4 @@
-public class MyStack<E> {
+public class MyStack<E> {//used for Islands
     private class Node<E> {
 
         private E element;
